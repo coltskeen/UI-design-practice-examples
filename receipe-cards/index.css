@@ -40,7 +40,7 @@ span {
 
  /* fixes */
 
-.container {
+/* .container {
     padding: 2em;
     width: 100%;
 }
@@ -63,11 +63,11 @@ h3 {
     margin-top: 0;
     margin-left: 0;
     margin-bottom: .5em;
-}
+} */
 
-/* OR THIS WORKS PERHAPS BETTER */
+/* SWEET FIXES - MUCH BETTER */
 
-/* 
+
 .container {
     width: 90%;
 }
@@ -89,4 +89,4 @@ h3 {
     margin: 0 0 .3em;
     color: #B6EAFF;
     font-size: 1.8em;
-} */
+}
