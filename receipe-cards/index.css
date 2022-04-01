@@ -41,7 +41,7 @@ span {
  /* fixes */
 
 .container {
-    padding: 1.3em;
+    padding: 2em;
     width: 100%;
 }
 
@@ -52,6 +52,9 @@ span {
 }
 
 p.date {
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: .1em;
     margin-bottom: 0;
 }
 
@@ -61,3 +64,29 @@ h3 {
     margin-left: 0;
     margin-bottom: .5em;
 }
+
+/* OR THIS WORKS PERHAPS BETTER */
+
+/* 
+.container {
+    width: 90%;
+}
+
+.card {
+    background: #2C3031;
+    padding: 1.5em;
+}
+
+p.date {
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: .1em;
+    color: #7A8587;
+    margin-bottom: .4em;
+}
+
+h3 {
+    margin: 0 0 .3em;
+    color: #B6EAFF;
+    font-size: 1.8em;
+} */
